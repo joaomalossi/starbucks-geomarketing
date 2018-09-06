@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<gmd:MD_Metadata xmlns:geonet="http://www.fao.org/geonetwork" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd    http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>c25ea0a6-e3e2-4e8d-bcf0-a729b08ffe15</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>por</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"></gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"></gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>Diretoria de Geociências – DGC / Coordenação de Estruturas Territoriais – CETE</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>Instituto Brasileiro de Geografia e Estatística - IBGE</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="author"></gmd:CI_RoleCode>
+			</gmd:role>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:phone>
+						<gmd:CI_Telephone>
+							<gmd:voice>
+								<gco:CharacterString>0800 721 8181</gco:CharacterString>
+							</gmd:voice>
+							<gmd:facsimile gco:nilReason="missing">
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:facsimile>
+						</gmd:CI_Telephone>
+					</gmd:phone>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:address>
+								<gco:CharacterString>Av. Brasil, 15671, Bloco 3A – Parada de Lucas</gco:CharacterString>
+							</gmd:address>
+							<gmd:city>
+								<gco:CharacterString>Rio de Janeiro</gco:CharacterString>
+							</gmd:city>
+							<gmd:administrativeArea gco:nilReason="missing">
+								<gmd:UF_TypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#UF_TypeCode" codeListValue="rj"></gmd:UF_TypeCode>
+							</gmd:administrativeArea>
+							<gmd:postalCode>
+								<gco:CharacterString>21241-051</gco:CharacterString>
+							</gmd:postalCode>
+							<gmd:country>
+								<gco:CharacterString>Brasil</gco:CharacterString>
+							</gmd:country>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>ibge@ibge.gov.br</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime></gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString xmlns:gml="http://www.opengis.net/gml" xmlns:srv="http://www.isotc211.org/2005/srv">ISO 19115:2003/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString xmlns:gml="http://www.opengis.net/gml" xmlns:srv="http://www.isotc211.org/2005/srv">1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_VectorSpatialRepresentation>
+			<gmd:topologyLevel>
+				<gmd:MD_TopologyLevelCode codeListValue="fullPlanarGraph" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopologyLevelCode"></gmd:MD_TopologyLevelCode>
+			</gmd:topologyLevel>
+			<gmd:geometricObjects>
+				<gmd:MD_GeometricObjects>
+					<gmd:geometricObjectType>
+						<gmd:MD_GeometricObjectTypeCode codeListValue="curve" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_GeometricObjectTypeCode"></gmd:MD_GeometricObjectTypeCode>
+					</gmd:geometricObjectType>
+				</gmd:MD_GeometricObjects>
+			</gmd:geometricObjects>
+		</gmd:MD_VectorSpatialRepresentation>
+		<gmd:MD_GridSpatialRepresentation>
+			<gmd:MD_Georectified>
+				<gmd:checkPointAvailability>
+					<gco:Boolean>false</gco:Boolean>
+				</gmd:checkPointAvailability>
+				<gmd:checkPointDescription>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:checkPointDescription>
+				<gmd:cornerPoints>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:cornerPoints>
+				<gmd:pointInPixel>
+					<gmd:MD_PixelOrientationCode codeListValue="upperLeft" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_PixelOrientationCode"></gmd:MD_PixelOrientationCode>
+				</gmd:pointInPixel>
+				<gmd:transformationDimensionDescription>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:transformationDimensionDescription>
+			</gmd:MD_Georectified>
+			<gmd:MD_Georeferenceable>
+				<gmd:controlPointAvailability>
+					<gco:Boolean>false</gco:Boolean>
+				</gmd:controlPointAvailability>
+				<gmd:orientationParameterAvailability>
+					<gco:Boolean>false</gco:Boolean>
+				</gmd:orientationParameterAvailability>
+				<gmd:georeferencedParameters>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:georeferencedParameters>
+			</gmd:MD_Georeferenceable>
+		</gmd:MD_GridSpatialRepresentation>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>SIRGAS2000</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+				<gmd:elipsoide>
+					<gco:CharacterString>GRS80</gco:CharacterString>
+				</gmd:elipsoide>
+				<gmd:parametros>
+					<gco:CharacterString>6.378.137,0 m e 298,25</gco:CharacterString>
+				</gmd:parametros>
+				<gmd:sistemaDeProjecao>
+					<gco:CharacterString>coordenadas geográficas (lat e lon)</gco:CharacterString>
+				</gmd:sistemaDeProjecao>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Malha de Setores Censitários do Subdistrito SÃO BERNARDO DO CAMPO (GEOCODIGO 35487080500) SÃO BERNARDO DO CAMPO/SP</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:CharacterString>2010-07-31</gco:CharacterString>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"></gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:edition>
+						<gco:CharacterString>1ª edição</gco:CharacterString>
+					</gmd:edition>
+					<gmd:series>
+						<gmd:CI_Series>
+							<gmd:name>
+								<gco:CharacterString>malhas territoriais</gco:CharacterString>
+							</gmd:name>
+						</gmd:CI_Series>
+					</gmd:series>
+					<gmd:ISBN>
+						<gco:CharacterString>não se aplica</gco:CharacterString>
+					</gmd:ISBN>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>A malha de setores censitários é um arquivo digital vetorial  dos setores referentes ao Censo Demográfico 2010, elaborado a partir da malha municipal vigente  com consistência geométrica, estruturado e padronizado para uso em Sistemas de Informações Geográficas.
+É composta pelas bases cartográficas compatíveis com a escala original de trabalho - 1:250.000, sem supressão de pontos, de acordo com critérios técnicos pré-estabelecidos pelo IBGE/DGC/CETE e utilizam como referência geodésica o SIRGAS2000.
+</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Oferecer a sociedade brasileira uma malha de unidades operacionais do IBGE, que viabiliza as análises estatísticas e o mapeamento temático de dados socioeconômicos e demográficos.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:credit>
+				<gco:CharacterString>IBGE, Diretoria de Geociências – DGC, Coordenação de Estruturas Territoriais – CETE, Unidades Estaduais - UEs</gco:CharacterString>
+			</gmd:credit>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ProgressCode"></gmd:MD_ProgressCode>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>Diretoria de Geociências – DGC / Coordenação de Estruturas Territoriais – CETE</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>Instituto Brasileiro de Geografia e Estatística - IBGE</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="originator" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode"></gmd:CI_RoleCode>
+					</gmd:role>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:phone>
+								<gmd:CI_Telephone>
+									<gmd:voice>
+										<gco:CharacterString>0800 721 8181</gco:CharacterString>
+									</gmd:voice>
+									<gmd:facsimile gco:nilReason="missing">
+										<gco:CharacterString></gco:CharacterString>
+									</gmd:facsimile>
+								</gmd:CI_Telephone>
+							</gmd:phone>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:address>
+										<gco:CharacterString>Av. Brasil, 15671, Bloco 3A  Parada de Lucas</gco:CharacterString>
+									</gmd:address>
+									<gmd:city>
+										<gco:CharacterString>Rio de Janeiro</gco:CharacterString>
+									</gmd:city>
+									<gmd:administrativeArea gco:nilReason="missing">
+										<gmd:UF_TypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#UF_TypeCode" codeListValue="rj"></gmd:UF_TypeCode>
+									</gmd:administrativeArea>
+									<gmd:postalCode>
+										<gco:CharacterString>21241-051</gco:CharacterString>
+									</gmd:postalCode>
+									<gmd:country>
+										<gco:CharacterString>Brasil</gco:CharacterString>
+									</gmd:country>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>ibge@ibge.gov.br</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://www.metadados.geo.ibge.gov.br:80/geonetwork_ibge/srv/eng/resources.get?uuid=774f6b36-7f6a-4b00-8cfb-08ba4a1419cc&amp;fname=$(__GEOCODIGO_M)_setor.png</gco:CharacterString>
+					</gmd:fileName>
+					<gmd:fileDescription>
+						<gco:CharacterString>thumbnail</gco:CharacterString>
+					</gmd:fileDescription>
+					<gmd:fileType>
+						<gco:CharacterString>png</gco:CharacterString>
+					</gmd:fileType>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+				<gmd:MD_BrowseGraphic>
+					<gmd:fileName>
+						<gco:CharacterString>http://www.metadados.geo.ibge.gov.br:80/geonetwork_ibge/srv/eng/resources.get?uuid=774f6b36-7f6a-4b00-8cfb-08ba4a1419cc&amp;fname=(__GEOCODIGO_M)_setor.png</gco:CharacterString>
+					</gmd:fileName>
+					<gmd:fileDescription>
+						<gco:CharacterString>large_thumbnail</gco:CharacterString>
+					</gmd:fileDescription>
+					<gmd:fileType>
+						<gco:CharacterString>png</gco:CharacterString>
+					</gmd:fileType>
+				</gmd:MD_BrowseGraphic>
+			</gmd:graphicOverview>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>estrututuras territoriais</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>limites administrativos</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>logradouros</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>áreas urbanas</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeListValue="discipline" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"></gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode"></gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:language>
+				<gco:CharacterString>por</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"></gmd:MD_CharacterSetCode>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode codeListValue="boundaries" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_TopicCategoryCode"></gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:environmentDescription>
+				<gco:CharacterString>Geomedia (Intergraph)</gco:CharacterString>
+			</gmd:environmentDescription>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-46.652045999999999</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-46.489090830167797</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-23.793451999999998</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>-23.641036</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gco:CharacterString>2010</gco:CharacterString>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:verticalElement>
+						<gmd:EX_VerticalExtent>
+							<gmd:minimumValue>
+								<gco:Real>0</gco:Real>
+							</gmd:minimumValue>
+							<gmd:maximumValue>
+								<gco:Real>0</gco:Real>
+							</gmd:maximumValue>
+							<gmd:measureDescription gco:nilReason="missing">
+								<gco:CharacterString></gco:CharacterString>
+							</gmd:measureDescription>
+						</gmd:EX_VerticalExtent>
+					</gmd:verticalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+		<gmd:resourceConstraints>
+			<gmd:MD_Constraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:resourceConstraints>
+						<gmd:accessConstraints>
+							<gmd:MD_RestrictionCode codeListValue="semRestricoes" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"></gmd:MD_RestrictionCode>
+						</gmd:accessConstraints>
+						<gmd:useConstraints>
+							<gmd:MD_RestrictionCode codeListValue="intellectualPropertyRights" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode"></gmd:MD_RestrictionCode>
+						</gmd:useConstraints>
+					</gmd:resourceConstraints>
+				</gmd:MD_LegalConstraints>
+				<gmd:MD_SecurityConstraints>
+					<gmd:classification>
+						<gmd:MD_ClassificationCode codeListValue="unclassified" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ClassificationCode"></gmd:MD_ClassificationCode>
+					</gmd:classification>
+				</gmd:MD_SecurityConstraints>
+			</gmd:MD_Constraints>
+		</gmd:resourceConstraints>
+	</gmd:identificationInfo>
+	<gmd:contentInfo>
+		<gmd:MD_FeatureCatalogueDescription>
+			<gmd:includedWithDataset>
+				<gco:Boolean>false</gco:Boolean>
+			</gmd:includedWithDataset>
+			<gmd:featureCatalogueCitation>
+				<gco:CharacterString>não se aplica</gco:CharacterString>
+			</gmd:featureCatalogueCitation>
+		</gmd:MD_FeatureCatalogueDescription>
+		<gmd:MD_CoverageDescription>
+			<gmd:attributeDescription>
+				<gco:RecordType>nao se aplica</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CoverageContentTypeCode"></gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+			<gmd:MD_ImageDescription gco:nilReason="missing">
+				<gco:CharacterString></gco:CharacterString>
+			</gmd:MD_ImageDescription>
+			<gmd:dimension>
+				<gmd:MD_RangeDimension>
+					<gmd:MD_Band gco:nilReason="missing">
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:MD_Band>
+				</gmd:MD_RangeDimension>
+			</gmd:dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:nameFormat>
+						<gco:CharacterString>Shapefile (SHP) e Keyhole Markup Language (KML)</gco:CharacterString>
+					</gmd:nameFormat>
+					<gmd:versionFormat gco:nilReason="missing">
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:versionFormat>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2010</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:DOWNLOAD-1.0-ftp--download</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>Malhas Digitais</gco:CharacterString>
+							</gmd:name>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.metadados.geo.ibge.gov.br/geonetwork_ibge/srv/en/resources.get?uuid=5d81acc4-a387-4180-98a3-832e6dcbe9ad&amp;fname=&amp;access=private</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gmx:MimeFileType xmlns:gmx="http://www.isotc211.org/2005/gmx" type=""></gmx:MimeFileType>
+							</gmd:name>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.geoservicos.ibge.gov.br/geoserver/CETE/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=CETE:V_T_LM_SETORES_2010&amp;styles=&amp;bbox=-73.9904499689983,-33.7520812705959,-28.8359076292382,5.27184107724554&amp;width=1024&amp;height=768&amp;srs=EPSG:4674&amp;format=application/openlayers</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+							</gmd:protocol>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+					<gmd:offLine>
+						<gmd:MD_Medium>
+							<gmd:offLine>
+								<gmd:MD_MediumNameCode codeListValue="dvd" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MediumNameCode"></gmd:MD_MediumNameCode>
+							</gmd:offLine>
+						</gmd:MD_Medium>
+					</gmd:offLine>
+					<gmd:pointOfContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Centro de Documentação e Disseminação da Informação - CDDI</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Instituto Brasileiro de Geografia e Estatística - IBGE</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"></gmd:CI_RoleCode>
+							</gmd:role>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:phone>
+										<gmd:CI_Telephone>
+											<gmd:voice>
+												<gco:CharacterString>0800 218181</gco:CharacterString>
+											</gmd:voice>
+											<gmd:facsimile gco:nilReason="missing">
+												<gco:CharacterString></gco:CharacterString>
+											</gmd:facsimile>
+										</gmd:CI_Telephone>
+									</gmd:phone>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:address>
+												<gco:CharacterString>Rua General Canabarro, 706 - Maracanã</gco:CharacterString>
+											</gmd:address>
+											<gmd:city>
+												<gco:CharacterString>Rio de Janeiro</gco:CharacterString>
+											</gmd:city>
+											<gmd:administrativeArea gco:nilReason="missing">
+												<gmd:UF_TypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#UF_TypeCode" codeListValue="rj"></gmd:UF_TypeCode>
+											</gmd:administrativeArea>
+											<gmd:postalCode>
+												<gco:CharacterString>20271-201</gco:CharacterString>
+											</gmd:postalCode>
+											<gmd:country>
+												<gco:CharacterString>Brasil</gco:CharacterString>
+											</gmd:country>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>ibge@ibge.gov.br</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+						</gmd:CI_ResponsibleParty>
+					</gmd:pointOfContact>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"></gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>A malha de setores censitários está no sistema geográfico de coordenadas Lat / Lon, referenciada ao Sistema Geodésico – SIRGAS2000, e é compatível com a escala original de trabalho - 1:250.000, sem supressão de pontos.
+Disponibilizada em pastas por unidade da federação sob o código formado por 14 caracteres (2 para UF+(2 para a divisão politica administrativo (MU_municipio; DS_distrito; SD_subdistrito) ou operacional (SE_setor censitário) + E250 (escala 1:250.000) + GC (coordenadas geográficas)+ _SIR (SIRGAS).</gco:CharacterString>
+					</gmd:statement>
+					<gmd:LI_Source gco:nilReason="missing">
+						<gco:CharacterString></gco:CharacterString>
+					</gmd:LI_Source>
+					<gmd:source>
+						<gco:CharacterString>Malha digital dos setores de operações censitárias anteriores. Sistema de Cadastros da base territorial: Banco de Estruturas Territoriais ( BET) e Base Operacional Geográfica (BOG). Documentos cartográficos oficiais das prefeituras municipais. Imagens de sensoriamento remoto e ortofotos. Informação de órgãos setores para cadastramento de áreas especiais. Relatórios de controle e acompanhamento da coleta da operação anterior. Relatórios do cadastro nacional de endereços para fins estatísticos – CNEFE.</gco:CharacterString>
+					</gmd:source>
+					<gmd:LI_ProcessStep>
+						<gco:CharacterString>Subdivisão dos setores da operação anterior segundo os critérios da base territorial. Extração das geometrias dos setores censitários do banco SISMALHA no esquema oracle SISMALHA_T_LM_SETORES. Validação geométrica e de conectividade. Análise de consistência entre a malha e os cadastros da base territorial; Consolidação final e disponibilização do banco mdb contendo as camadas referentes as malhas Brasil, unidades da federação, meso e microrregiões, município,  distrito, subdistrito, setores censitários.  Disponibilização de arquivos formato shape (.shp) produzidos com a utilização do software FME, em plataforma comercial interoperável, por unidade da federação.</gco:CharacterString>
+					</gmd:LI_ProcessStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+			<gmd:report>
+				<gmd:DQ_GriddedDataPositionalAccuracy>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:DQ_GriddedDataPositionalAccuracy>
+				<gmd:DQ_DomainConsistency>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:DQ_DomainConsistency>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+				<gmd:DQ_AccuracyOfATimeMeasurement>
+					<gco:CharacterString>2010</gco:CharacterString>
+				</gmd:DQ_AccuracyOfATimeMeasurement>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gco:CharacterString>não se aplica</gco:CharacterString>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:metadataMaintenance>
+		<gmd:MD_MaintenanceInformation>
+			<gmd:maintenanceAndUpdateFrequency>
+				<gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode"></gmd:MD_MaintenanceFrequencyCode>
+			</gmd:maintenanceAndUpdateFrequency>
+		</gmd:MD_MaintenanceInformation>
+	</gmd:metadataMaintenance>
+</gmd:MD_Metadata>
